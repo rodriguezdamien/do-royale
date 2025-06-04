@@ -30,6 +30,8 @@ public class SocketHandler {
             case NEW_PLAYER:
                 break;
             case NEW_GAME:
+                //faire quelque chose pour créer une partie
+                
                 break;
             case LIST_GAME:
                 break;

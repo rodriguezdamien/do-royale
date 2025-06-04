@@ -1,3 +1,7 @@
 package com.nmeo.services;
 
-public class GameService {}
+public class GameService {
+    private IGameManager gameManager;
+    
+
+}
