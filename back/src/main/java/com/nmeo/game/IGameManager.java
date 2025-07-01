@@ -2,7 +2,7 @@ package com.nmeo.game;
 
 import java.util.ArrayList;
 import java.util.UUID;
-
+import com.nmeo.models.*;
 public interface IGameManager {
     public void createGame(UUID gameUUID, String gameName);
     public GameState createPlayer(UUID playerUUID, Player player); // guess playerUUID? maybe it's socketUUID
@@ -12,5 +12,4 @@ public interface IGameManager {
     public void destroyBullet(UUID playerUUID, Bullet bullet);
     public GameState setGameState(UUID playerUUID, GameStatus gameStatus);
     public ArrayList<Game> getGameList();
-    //abstract GameSession getGameFromId(UUID gameUUID);
 }
